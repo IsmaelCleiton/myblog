@@ -1,0 +1,18 @@
+.post-preview{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    border-radius: 15px;
+    max-width: 85vh;
+}
+
+.post-preview-img{
+    width: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.post-preview-preview{
+    padding: 1vh;
+    
+}

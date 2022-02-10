@@ -1,0 +1,18 @@
+.main-post{
+    display: flex;
+    flex-direction: row;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.main-post-img{
+    width: auto;
+    max-width: 80vh;
+    border-radius: 15px;
+}
+
+.main-post-preview{
+    padding: 1vh;
+    max-width: 99vh;
+}

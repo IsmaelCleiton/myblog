@@ -1,18 +1,21 @@
+import * as React from "react";
+import { Link, NavLink } from 'react-router-dom';
+
 import './styles.css'
 
 export default function Navbar() {
     return (
         <nav className="navbar">
             <div>
-                <a href="/">
+                <Link className="logo" to="/">
                     <h3>Ismael Cleiton</h3>
-                </a>
+                </Link>
             </div>
 
             <div>
-                <a href="/">Home</a>
-                <a href="/blog">Blog</a>
-                <a href="/about">Sobre</a>
+                <NavLink className="navlink" to="/">Home</NavLink>
+                <NavLink className="navlink" to="/blog">Blog</NavLink>
+                <NavLink className="navlink" to="/sobre">Sobre</NavLink>
             </div>
         </nav>
     );

@@ -4,11 +4,20 @@
     
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     margin: 20px 0px;
 
 }
 
+.navlink {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+}
+
 .logo {
     text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
 }
